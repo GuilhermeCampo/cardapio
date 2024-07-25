@@ -56,7 +56,6 @@ header {
 }
 
 main {
-  
   display: grid;
   gap: 28px;
   margin: auto;
@@ -66,7 +65,6 @@ main {
 div#menu {
   padding: 10px;
   margin: auto;
-  
 }
 
 .item-hamb {
@@ -117,17 +115,20 @@ div#menu {
   padding-top: 3px;
 }
 
-#menu-bebidas{
+#menu-bebidas {
   margin: auto;
   margin-bottom: 50px;
   width: 100%;
   display: grid;
   gap: 10px;
-
+  
 }
 
+.main-bebidas{
+  width: 100%;
+}
 
-footer{
+footer {
   width: 100%;
   background-color: red;
   text-align: center;
@@ -137,17 +138,12 @@ footer{
   bottom: 0;
 }
 
-footer>button{
+footer > button {
   background-color: rgba(0, 0, 0, 0);
   border: none;
-  
-  
-  
-
 }
 
-.add-cart{
+.add-cart {
   position: absolute;
   transform: translate(5px, -3px);
-
 }
