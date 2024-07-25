@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 420px;
+  width: 100%;
+  background: rgb(26, 26, 26) url(../assets/images/bg.png) no-repeat center;
+  background-size: cover;
+}
+.h-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-img {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  transition: transform.2s;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+.logo-img:hover {
+  transform: scale(1.1);
+}
+
+.h-container > h1 {
+  color: white;
+  font-size: 2.5em;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.funcionamento {
+  color: white;
+  background-color: rgb(39, 136, 39);
+  padding: 4px 16px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.main-title {
+  text-align: center;
+  margin: 15px 0;
+}
+
+main {
+  
+  display: grid;
+  gap: 28px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+div#menu {
+  padding: 10px;
+  margin: auto;
+  
+}
+
+.item-hamb {
+  display: flex;
+  gap: 10px;
+}
+
+.item-hamb-img {
+  border-radius: 7px;
+  width: 7rem;
+  height: 7rem;
+  transition: transform 0.2s;
+}
+
+.item-hamb-img:hover {
+  transform: scale(1.1) rotate(-2deg);
+}
+
+.hamb-title {
+  font-weight: bold;
+}
+
+.hamb-desc {
+  font-size: 0.8rem;
+  color: rgb(85, 85, 85);
+  margin-top: 7px;
+  line-height: 1rem;
+}
+
+.price-cart {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cart-button {
+  background-color: rgb(43, 43, 43);
+  border-style: none;
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  padding-top: 3px;
+}
+
+#menu-bebidas{
+  margin: auto;
+  width: 100%;
+  display: grid;
+  gap: 10px;
+
+}

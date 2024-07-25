@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+@media (min-width: 768px) {
+  main {
+    width: 90vw;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main-title {
+    font-size: 1.6rem;
+  }
+
+  #menu-bebidas{
+    grid-template-columns: 1fr 1fr;
+    max-width: 90vw;
+    margin: auto;
+  }
+}
+
+@media (min-width:1200px){
+    main{
+       
+        max-width: 1100px;
+        margin: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
