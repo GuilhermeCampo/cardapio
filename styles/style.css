@@ -119,6 +119,7 @@ div#menu {
 
 #menu-bebidas{
   margin: auto;
+  margin-bottom: 50px;
   width: 100%;
   display: grid;
   gap: 10px;
@@ -132,6 +133,8 @@ footer{
   text-align: center;
   padding: 10px;
   vertical-align: middle;
+  position: fixed;
+  bottom: 0;
 }
 
 footer>button{
