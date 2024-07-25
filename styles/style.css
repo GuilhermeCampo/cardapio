@@ -124,3 +124,27 @@ div#menu {
   gap: 10px;
 
 }
+
+
+footer{
+  width: 100%;
+  background-color: red;
+  text-align: center;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+footer>button{
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  
+  
+  
+
+}
+
+.add-cart{
+  position: absolute;
+  transform: translate(5px, -3px);
+
+}
