@@ -56,7 +56,7 @@ header {
   margin: 15px 0;
 }
 
-.modal-container {
+#modal-container {
   position: fixed;
   top: 0;
   left: 0;

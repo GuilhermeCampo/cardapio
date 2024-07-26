@@ -37,11 +37,11 @@
     <h2 class="main-title">Conheça nosso menu</h2>
 
     <!-- MODAL -->
-    <div class="modal-container">
+    <div id="modal-container">
       <div class="modal">
         <h2>Meu carrinho</h2>
         <div id="cart-items">
-          <p>Total:<span>R$ 0:00</span></p>
+          <p>Total:<span id="cart-total">R$ 0:00</span></p>
           <p>Endereço de entrega:</p>
           <input
             type="text"
@@ -54,7 +54,7 @@
         <p id="address-warn">Digite seu endereço completo!</p>
 
         <div id="modal-btn">
-          <button id="modal-close-btn" onclick="cartClose()">Fechar</button>
+          <button id="modal-close-btn">Fechar</button>
 
           <button id="modal-finish-btn">Finalizar</button>
         </div>
@@ -319,8 +319,8 @@
 
     <!-- btn cart footer -->
     <footer >
-      <button id="cart-btn" onclick="cartOpen()">
-        (<span class="cart-count">0</span>) Ver carrinho
+      <button id="cart-btn">
+        (<span id="cart-count">0</span>) Ver carrinho
         <span class="material-symbols-outlined add-cart" style="color: white">
           shopping_cart
         </span>
