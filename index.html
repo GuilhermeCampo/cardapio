@@ -36,6 +36,33 @@
 
     <h2 class="main-title">Conheça nosso menu</h2>
 
+    <!-- MODAL -->
+    <div class="modal-container">
+      <div class="modal">
+        <h2>Meu carrinho</h2>
+        <div id="cart-items">
+          <p>Total:<span>R$ 0:00</span></p>
+          <p>Endereço de entrega:</p>
+          <input
+            type="text"
+            name="address"
+            id="address"
+            placeholder="Digite seu endereo completo."
+          />
+        </div>
+
+        <p id="address-warn">Digite seu endereço completo!</p>
+
+        <div id="modal-btn">
+          <button id="modal-close-btn" onclick="cartClose()">Fechar</button>
+
+          <button id="modal-finish-btn">Finalizar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- FIM MODAL -->
+
     <!-- inicio menu -->
     <div id="menu">
       <main>
@@ -227,7 +254,7 @@
       </main>
 
       <div>
-        <h2 class="main-title" style="text-align: left;">Bebidas</h2>
+        <h2 class="main-title" style="text-align: left">Bebidas</h2>
       </div>
 
       <!-- bebidas -->
@@ -242,10 +269,8 @@
           />
 
           <div class="main-bebidas">
-            <p class="hamb-title">Coca-Cola </p>
-            <p class="hamb-desc">
-             Lata com 350ml
-            </p>
+            <p class="hamb-title">Coca-Cola</p>
+            <p class="hamb-desc">Lata com 350ml</p>
 
             <div class="price-cart">
               <p class="price">R$ 5,00</p>
@@ -271,10 +296,8 @@
           />
 
           <div class="main-bebidas">
-            <p class="hamb-title">Guaraná Antártica </p>
-            <p class="hamb-desc">
-             Lata com 350ml
-            </p>
+            <p class="hamb-title">Guaraná Antártica</p>
+            <p class="hamb-desc">Lata com 350ml</p>
 
             <div class="price-cart">
               <p class="price">R$ 5,00</p>
@@ -290,24 +313,20 @@
             </div>
           </div>
         </div>
-
       </div>
-
-
-    </div><!-- fim menu -->
+    </div>
+    <!-- fim menu -->
 
     <!-- btn cart footer -->
-     <footer>
-      <button>
-        (<span class="cart-count">2</span>)
-        Ver carrinho
-        <span class="material-symbols-outlined add-cart" style="color:white;">
+    <footer >
+      <button id="cart-btn" onclick="cartOpen()">
+        (<span class="cart-count">0</span>) Ver carrinho
+        <span class="material-symbols-outlined add-cart" style="color: white">
           shopping_cart
-          </span>
+        </span>
       </button>
+    </footer>
 
-     </footer>
-
-    
+    <script src="index.js"></script>
   </body>
 </html>

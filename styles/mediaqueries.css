@@ -1,6 +1,10 @@
 @charset "utf-8";
 
 @media (min-width: 768px) {
+
+  div.modal{
+    max-width: 600px;
+  }
   main {
     width: 90vw;
     grid-template-columns: 1fr 1fr;
@@ -15,6 +19,9 @@
     max-width: 90vw;
     margin: auto;
   }
+ 
+
+  
 }
 
 @media (min-width:1200px){
@@ -24,4 +31,5 @@
         margin: auto;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    
 }
