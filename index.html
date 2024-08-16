@@ -40,8 +40,9 @@
     <div id="modal-container">
       <div class="modal">
         <h2>Meu carrinho</h2>
-        <div id="cart-items">
-          <p>Total:<span id="cart-total">R$ 0:00</span></p>
+        
+        <div id="cart-items"></div>
+          <p style="font-weight: bold;">Total: <span id="cart-total">R$ 0:00</span></p>
           <p>Endereço de entrega:</p>
           <input
             type="text"
@@ -49,7 +50,7 @@
             id="address"
             placeholder="Digite seu endereo completo."
           />
-        </div>
+        
 
         <p id="address-warn">Digite seu endereço completo!</p>
 
@@ -86,7 +87,7 @@
               <button
                 class="cart-button add-to-cart-btn"
                 data-name="Hamburguer Smash"
-                data-price="29,90"
+                data-price="29.90"
               >
                 <span class="material-symbols-outlined" style="color: white">
                   add_shopping_cart
@@ -117,7 +118,7 @@
               <button
                 class="cart-button add-to-cart-btn"
                 data-name="Hamburguer Duplo"
-                data-price="39,90"
+                data-price="39.90"
               >
                 <span class="material-symbols-outlined" style="color: white">
                   add_shopping_cart
@@ -148,7 +149,7 @@
               <button
                 class="cart-button add-to-cart-btn"
                 data-name="Hamburguer Cheddar"
-                data-price="29,90"
+                data-price="29.90"
               >
                 <span class="material-symbols-outlined" style="color: white">
                   add_shopping_cart
@@ -179,7 +180,7 @@
               <button
                 class="cart-button add-to-cart-btn"
                 data-name="Hamburguer Fit"
-                data-price="35,90"
+                data-price="35.90"
               >
                 <span class="material-symbols-outlined" style="color: white">
                   add_shopping_cart
@@ -210,7 +211,7 @@
               <button
                 class="cart-button add-to-cart-btn"
                 data-name="Hamburguer Picanha"
-                data-price="45,90"
+                data-price="45.90"
               >
                 <span class="material-symbols-outlined" style="color: white">
                   add_shopping_cart
@@ -240,8 +241,8 @@
               <p class="price">R$ 28,90</p>
               <button
                 class="cart-button add-to-cart-btn"
-                data-name="Hamburguer fritas"
-                data-price="28,90"
+                data-name="Hamburguer com fritas"
+                data-price="28.90"
               >
                 <span class="material-symbols-outlined" style="color: white">
                   add_shopping_cart
@@ -318,7 +319,7 @@
     <!-- fim menu -->
 
     <!-- btn cart footer -->
-    <footer >
+    <footer>
       <button id="cart-btn">
         (<span id="cart-count">0</span>) Ver carrinho
         <span class="material-symbols-outlined add-cart" style="color: white">
